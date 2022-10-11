@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CDController {
 
-    @GetMapping(path = "/")
+    @GetMapping("/")
     public String hello() {
         return "Hello";
     }
