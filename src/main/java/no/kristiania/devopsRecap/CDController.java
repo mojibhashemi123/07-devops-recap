@@ -12,7 +12,8 @@ public class CDController {
         return "Hello";
     }
     
-    @GetMapping("/secret") {
+    @GetMapping("/secret") 
+    public String hello2() {
         return "Hello from secret, send nudes";
     }
 
